@@ -7,7 +7,7 @@ const api = axios.create({
   headers: {
     'Content-Type': 'application/json',
   },
-  timeout: 60000, // 60s timeout for RAG / LLM generation
+  timeout: 300000, // 60s timeout for RAG / LLM generation
 });
 
 export const getHealth = async () => {
